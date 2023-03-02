@@ -17,11 +17,6 @@ class SignUpForm extends Component {
     });
   };
 
-  //   handleSubmit = (evt) => {
-  //       evt.preventDefault();
-  //       // alert(JSON.stringify(this.state)); converts JS objectr to the JSON object.
-  //       //use AJAX to send this.state to the server
-  // }
   handleSubmit = async (e) => {
     e.preventDefault();
     // alert(JSON.stringify(this.state)); converts JS object to the JSON object.
