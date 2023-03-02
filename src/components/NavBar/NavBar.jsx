@@ -9,12 +9,10 @@ function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to="/orders">Order History</Link>
+      <Link to="/notes">All Notes</Link>
       &nbsp; | &nbsp;
-      <Link to="/orders/new">New Order</Link>
+      <Link to="/notes/new">New Note</Link>
       &nbsp; | &nbsp;<span>Welcome,{user.name}</span>
-      {/* &nbsp; | &nbsp;<span>Welcome,{user && user.name}</span> if you want to show navbar before logging in */}
-      {/* add the line above and move the navbar location in app.js */}
       &nbsp; | &nbsp;
       <Link to="" onClick={handleLogOut}>
         Log Out

@@ -11,7 +11,7 @@ export default function NoteComponent({ notes, user, setNotes }) {
       <div>user: {user.name}</div>
       <div>posted: {new Date(notes.updatedAt).toLocaleDateString()}</div>
       <div>
-        text: <strong>{notes.text}</strong>{" "}
+        text: <strong>{notes.content}</strong>{" "}
         <button onClick={handleClick}>x</button>
       </div>
       <hr />
